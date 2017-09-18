@@ -78,7 +78,7 @@ int main()
 	root = Insert(root,20);
 	root = Insert(root,10);
 	root = Insert(root,25);
-	root = nsert(root,19);
+	root = Insert(root,19);
 	root = Insert(root,29);
 	int n;
 	cout << "Enter the number to be searched" << endl;
