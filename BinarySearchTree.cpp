@@ -75,11 +75,11 @@ bool Search(Node* root, int data)
 
 int main()
 {
-	Insert(root,20);
-	Insert(root,10);
-	Insert(root,25);
-	Insert(root,19);
-	Insert(root,29);
+	root = Insert(root,20);
+	root = Insert(root,10);
+	root = Insert(root,25);
+	root = nsert(root,19);
+	root = Insert(root,29);
 	int n;
 	cout << "Enter the number to be searched" << endl;
 	cin >> n;
