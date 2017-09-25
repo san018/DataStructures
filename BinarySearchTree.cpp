@@ -71,6 +71,39 @@ bool Search(Node* root, int data)
 	
 }
 
+//Function to find the minimum in the tree
+int FindMin(Node* root)
+{
+   Node* temp = root;
+   if(temp == NULL)	
+   {
+   	cout << "Tree is empty";
+   	return -1;
+   }
+	while(temp->left != NULL)
+	{
+		temp  = temp->left;
+	}
+	return temp->data;
+	
+}
+
+//Function to find the maximum in the tree
+int FindMax( Node* root)
+{
+	Node* temp = root;
+	if(temp == NULL)	
+	{
+		cout << "The tree is empty";
+		return -1;
+	}
+	while(temp->right!= NULL)
+	{
+		temp = temp->right;
+	}
+	return temp->data;
+}
+
 
 
 int main()
