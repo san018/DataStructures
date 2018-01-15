@@ -1,4 +1,7 @@
 # DataStructures
+Note:
+
+This repository contains the code for DataStructures which I've implemented for practice.
 
 Useful Links:
 
